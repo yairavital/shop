@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: white;
+  z-index: 10;
+  position: fixed;
+  height: 10vh;
+  width: 100vw;
+  text-align: center;
+  border: 1px solid black;
+}
+header > img {
+  max-height: 100%;
+}
+nav {
+  padding-top: 5px;
+  position: absolute;
+  left: 3vw;
+  top: 2vh;
+}
+nav > a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-weight: bolder;
+  letter-spacing: 2.5px;
+  font-family: "Akshar", sans-serif;
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+i {
+  font-size: 2em;
+  position: absolute;
+  right: 2.5%;
+  top: 1%;
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+nav > a:hover {
+  font-size: 1.3em;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  background-color: black;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(245, 232, 232);
+  text-transform: capitalize;
+  font-weight: bolder;
+  letter-spacing: 2.5px;
+  font-family: "Akshar", sans-serif;
+  height: 4vh;
+}
+.container {
+  text-align: center;
+  position: absolute;
+  top: 8vh;
+  left: 5%;
+  width: 90vw;
+  background-color: lightgrey;
+  padding: 3.5%;
+}
+.im {
+  height: 200px;
+}
+
+/*extra small devices "ex op2" */
+@media (max-width: 575.98px) {
+  nav {
+    display: none;
+  }
+  /* .card {
+    display: inline-block;
+    margin: 1.5%;
+    width: 85%;
+    height: 200px;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 2%;
+  } */
+}
+/*-----------*/
+/*small devicies"small op3"*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  nav {
+    display: none;
+  }
+  /* .card {
+    display: inline-block;
+    margin: 1.5%;
+    width: 85%;
+    height: 200px;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 2%;
+  } */
+}
+/*-----------*/
+/*mediom devicies"med op3"*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  nav {
+    display: none;
+  }
+  /* .card {
+    display: inline-block;
+    margin: 1.5%;
+    width: 40%;
+    height: 200px;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 2%;
+  } */
+}
+/*-----------*/
+/*large devicies"lar op3"*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #fa {
+    display: none;
+  }
+  /* .card {
+    display: inline-block;
+    margin: 1.5%;
+    width: 25%;
+    height: 200px;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 2%;
+  } */
+}
+/*-----------*/
+/*extra large devicies"ex op1"*/
+@media (min-width: 1200px) {
+  #fa {
+    display: none;
+  }
+  /* .card {
+    display: inline-block;
+    margin: 1.5%;
+    width: 25%;
+    height: 200px;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 2%;
+  } */
+}
